@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
-  <link rel="stylesheet" href="styles.css">
+{% extends "layout.html" %}
+   
+{% block title %}
+    Log In
+{% endblock %}
 
-</head>
-<body>
-    
+{% block forms_title %}
+    Log In
+{% endblock %}
   <!-- Method: post action: /direction -->
+  {% block main %}
   <form class="registration">
     <input type="text" placeholder="Nombre del paciente" name="nombrePaciente" required>
     <input type="text" placeholder="Edad del paciente" name="edadPaciente" required>
@@ -21,6 +20,5 @@
       <option value="neurologico">Neurológico</option>
       <option value="conductual">Conductual</option>
     </select>
-
-</body>
-</html>
+  </form>
+  {% endblock %}
