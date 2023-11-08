@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+  <!-- Method: post action: /direction -->
+  <form class="registration">
+    <input type="text" placeholder="Nombre del paciente" name="nombrePaciente" required>
+    <input type="text" placeholder="Edad del paciente" name="edadPaciente" required>
+    <select name="Diagnostico" multiple required>
+      <option disapled> Diagnostico</option>
+      <option value="motriz">Motriz</option>
+      <option value="social">Social</option>
+      <option value="lenguaje">Lenguaje</option>
+      <option value="neurologico">Neurológico</option>
+      <option value="conductual">Conductual</option>
+    </select>
+
+</body>
+</html>

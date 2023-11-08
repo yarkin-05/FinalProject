@@ -3,6 +3,75 @@ Define Requirements:
 Database System:
 MySQL because it is simple and easy to use
 
+Forms:
+  Registration/liberacion de repsonsabilidad(llenado por los papas):
+    name  *
+    birth_date  *
+    weight *
+    height *
+    disability *
+    school/institucion *
+    teacher *
+    nombre_tutor *
+    que es del paceinte el tutor *
+    calle y Nº *
+    ciudad y estado *
+    codigo postal *
+    telefono_domicilio *
+    telefono_celular *
+    telefono_adicional *(Registre otro número telefónico en el cual se pueda contactar a algún responsable del participantes e indique una descripción, por ejemplo, trabajo, familiar, etc.
+    )
+    correo *
+    uso de fotografia? *
+    archivo con firma digitalizada para autorizar lo de las fotos
+    Liberacion de responsabilidad:
+      '''Conozco el potencial de
+      riesgo que surge de la equitación y en general del riesgo de las actividades
+      ecuestres, incluyendo lesiones corporales graves. Sin embargo, estoy consciente
+      que los beneficios para el  participante
+      son mayores que el riesgo que se asume. Con la intención de quedar vinculado
+      legalmente por mí, mis herederos, cesionarios y administradores, libero para
+      siempre de todas las reclamaciones por daños y perjuicios contra Amigos de Riendas
+      para la Vida AC y sus instructores, terapistas, empleados, voluntarios,
+      caballos y cualquier otra persona relacionada con el programa, por cualquier lesión
+      y / o pérdidas que el participante pudiera sufrir durante su permanencia en el
+      programa por cualquier causa, incluyendo si existiese negligencia de las partes
+      liberadas.
+
+
+
+      El abajo firmante reconoce
+      que él/ella ha leído este Formato de Registro y Liberación en su totalidad; que
+      él/ella comprende los términos de esta liberación y ha firmado este formato
+      voluntariamente y con pleno conocimiento de sus efectos.``````
+      fecha
+      fecha,
+      nombre
+      firma (file)
+    medico *
+    clinica y hospital de preferencia *
+    compañia de seguro *
+    poliza No *
+    Alergias, medicamentos y otros aspectos de salud a tomar en cuenta *
+      En caso de no presentar condiciones relevantes, favor responder "No aplica" 
+    contacto de emergencia 1*
+    contancto de emergencia 2*
+
+    **esta parte estam uy confusa, checala en https://docs.google.com/forms/d/e/1FAIpQLSdxNFGosR98WbtfqYNrhst4wMuQtoQ9v2e0ubOABNMQPZo2bQ/formResponse
+    doy constemimiento?
+      si (redicciona a otra pagina)
+      no (redicciona a otra pagina)
+    sindrome de down?
+      ¿Presenta Síntomas Neurológicos de Inestabilidad Atlantoaxial (Indique los síntomas)?
+
+    
+
+  Datos_generales (llenado por instructoras)
+    name
+    birth_date
+    contact_cel
+    diagnosis
+
 
 Platform for app development: 
 Progressive web app is the choice because:
@@ -74,3 +143,23 @@ Be aware of data protection and privacy laws that may apply to the data you're c
 Documentation:
 
 Document your database schema, API endpoints, and codebase for future reference.
+
+
+
+## Registration Form
+
+    Nombre del Paciente:
+    Edad del Paciente:
+    Diagnostico:
+      Motriz
+      Social
+      Lenguaje
+      Neurologico
+      Conductual
+      Otro : Especificar
+    Tutor 1 del Paciente: *Obligatorio
+    Tutor 2 del Paciente: *Opcional
+    Telefono de contacto: *Obligatorio
+    2 telefono de contacto: *Opcional
+
+   
